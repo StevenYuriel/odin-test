@@ -34,7 +34,6 @@ body{
     justify-content: center;
     padding: 80px;   
     flex-wrap: wrap; 
- 
 }
 
 .header-information .primary{
@@ -60,8 +59,6 @@ body{
 
 .header-information .secondary{
     display: flex;
-
-    
 }
 
 .button-signup-primary{
