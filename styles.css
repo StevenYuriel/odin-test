@@ -57,12 +57,15 @@ body{
 
 .signup{
     display: block;
-    background: #3882F6;
-    color: white;
-    border-radius: 8px;
-    padding: 10px;
+    text-align: center;
     width: 110px;
-    font-weight: bold;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
     text-decoration: none;
+    font-weight: bold;
 }
 
