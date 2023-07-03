@@ -14,14 +14,27 @@ body{
 
 .header-container .primary {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+    width: 100%;   
+}
+
+.header-container .primary .img-primary{
+    padding: 0px 0px 0px 50px;
+}
+
+.header-container .ul-primary{
+
+}
+
+.header-container .primary .ul-primary .a-primary {
+    display: inline-flex;
 }
 
 .header-container .primary a{   
     text-decoration: none;
     color: rgb(219, 218, 218);  
-    padding: 0px 50px 0px 0px; 
-    font-size: 120%;
+    padding: 0px 50px 0px 0px;
+    font-size: 120%;    
 }
 
 .header-container .primary a:hover{
@@ -80,14 +93,8 @@ body{
 }
 
 .button-signup-primary:hover{
-    width: 110px;
-    border: none;
     background: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
     color: #000000;
-    text-decoration: none;
-    font-weight: bold;
 }
 /* NAV */
 
@@ -172,14 +179,9 @@ body{
 }
 
 .button-signup-secondary:hover{
-    width: 110px;
     border: 2px solid #ffffff;
     background: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
     color: #000000;
-    text-decoration: none;
-    font-weight: bold;
 }
 /* MAIN */
 
