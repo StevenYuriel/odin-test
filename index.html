@@ -7,9 +7,9 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
-    <header class="header">
-        <nav class="header-container">
-            <div><img alt="logo" height="80px" src="images/996bbf27db856d35c7181c0dee7ae347-silueta-de-avion-de-combate.png"></div>
+    <header class="header-container">
+        <nav class="primary">
+            <div><img alt="logo" height="60px" src="images/foto.png"></div>
             <ul>
                 <a href="">About</a>
                 <a href="">Store</a>
@@ -17,19 +17,68 @@
             </ul>
         </nav>
         <div class="header-information">
-            <div class="header-text">
-                <p class="phrase">This website is awesome</p>
-                <p class="phrase2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum nihil praesentium sit iure debitis magnam eius nam, rerum culpa cupiditate, neque animi nemo repudiandae numquam necessitatibus perferendis! Dicta, quia.</p>
-                <button role="link" onclick="window.location='https://www.google.com'" class="signup">Sign Up</button>
+            <div class="primary">
+                <p class="p-primary">This website is awesome</p>
+                <p class="p-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum nihil praesentium sit iure debitis magnam eius nam, rerum culpa cupiditate, neque animi nemo repudiandae numquam necessitatibus perferendis! Dicta, quia.</p>
+                <button role="link" onclick="window.location='https://www.google.com'" class="button-signup-primary">Sign Up</button>
             </div>
-            <img height="350px" src="images/foto1.jpg" alt="foto">
+            <div class="secondary">
+                <img height="300px" src="images/foto1.jpg" alt="foto">
+            </div>
         </div>
     </header>
 
-    <main class="aircraft-types">
-        <br>
-        <h1>Aircraft Types</h1>
+    <br>
 
+    <main>
+        <h1>Aircraft Types</h1>
+        <br><br>
+        <div class="square-container">
+            <div class="square-primary">
+                <div><img height="150px" src="mages/foto2.jpg"></div>
+                <p>Lorem ipsum dolor.</p>
+            </div>
+            <div class="square-primary">
+                <div><img height="150px" src="mages/foto1.jpg"></div>
+                <p>Lorem ipsum dolor.</p>
+            </div>
+            <div class="square-primary">
+                <div><img height="150px" src="mages/foto5.jpg"></div>
+                <p>Lorem ipsum dolor.</p>
+            </div>
+            <div class="square-primary">
+                <div><img height="150px" src="mages/foto4.jpg"></div>
+                <p>Lorem ipsum dolor.</p>
+            </div>
+            
+        </div>
+        <br><br><br><br><br><br><br>
+
+        <div class="quotes-container">
+            <div class="quotes-primary">
+                <p>“I've owned 41 airplanes. A few of them would talk with me. This little seaplane, though, we've had long conversations in flight. There's a spirit in anything, I think, into which we weave our soul. Not many pilots talk about it, but they think about it in the quiet dark of a night flight.”</p>
+                <p class="name">— Richard Bach</p>
+            </div>
+        </div>
+        
+        <div class="signup-container">
+            <div class="signup-primary">
+                <div class="signup-secondary">
+                    <p class="p-primary">Call to action! It's time!</p>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div>
+                    <button role="link" onclick="window.location='https://www.google.com'" class="button-signup-secondary">Sign Up</button>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <div class="footer-container">
+            <p class="p-primary">Copyright &copy; The Odin Project 2023</p>
+        </div>
+
+    </footer>
 </body>
 </html>
