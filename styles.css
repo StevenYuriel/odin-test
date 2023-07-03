@@ -56,11 +56,13 @@ body{
 }
 
 .signup{
+    display: block;
     background: #3882F6;
     color: white;
     border-radius: 8px;
     padding: 10px;
     width: 110px;
     font-weight: bold;
+    text-decoration: none;
 }
 
